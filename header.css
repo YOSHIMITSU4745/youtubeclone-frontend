@@ -1,0 +1,205 @@
+
+
+
+.header
+{
+    display: flex;
+    height:60px;
+    
+    
+    justify-content:space-between;
+    
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+    background-color: white;
+    height:65px;
+    box-shadow: 1px 0px 1px 2px rgba(0,0,0,0.15);
+    z-index: 1;
+
+}
+
+.left-section
+{
+    width:150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.menu-img
+{
+    height: 24px;
+    margin-left: 15px;
+}
+.youtubelogo-img
+{
+    height:20px;
+}
+
+
+.mid-section
+{
+    
+    flex:1;
+    display: flex;
+    max-width: 470px;
+    align-items: center;
+    margin-left: 35px;
+    margin-right: 20px;
+}
+.search-input
+{
+    height:38px;
+    padding-left: 10px;
+
+    border:1px solid rgb(193, 193, 193);
+    flex:1;
+    width:0;
+    max-width: 100%;
+    font-family: roboto;
+    font-size: 16px;
+    box-shadow: inset 0 0 2px 2px rgba(0,0,0,.05) ;
+}
+.search-input::placeholder
+{
+    font-family: roboto;
+    font-size: 16px;
+}
+.search-img
+{
+    height:24px;
+    padding-top: 4px;
+    
+}
+.voicesearch-img
+{
+    height:24px;
+    margin-top: 4px;
+}
+.search-btn
+{
+    height:41.6px;
+    
+    width:60px;
+    border:1px solid rgb(193, 193, 193);
+    
+    margin-left: -1px;
+    margin-right: 10px;
+    background-color: rgb(250, 250, 250);
+    position:relative;
+    display: flex;
+    justify-content: center;
+}
+.menu-img:hover,.youtubelogo-img:hover,.search-btn:hover,
+.vsearch-btn:hover,.uptip:hover,.notitip:hover,.apptip:hover
+,.usertip:hover
+{
+    cursor: pointer;
+}
+
+
+.search-btn .tooltip,.vsearch-btn .tooltip,
+.uptip .tooltip,.apptip .tooltip,.notitip .tooltip,
+.usertip .tooltip
+{
+
+    position: absolute;
+    font-weight: 700;
+    color:white;
+    background-color: gray;
+    padding:3px 5px;
+    font-size: 12px;
+    border-radius: 2px;
+    bottom: -30px;
+    opacity:0;
+    transition:opacity 0.25s; 
+    white-space: nowrap;
+    pointer-events: none;
+
+}
+.search-btn:hover .tooltip ,.vsearch-btn:hover .tooltip,
+.uptip:hover .tooltip,.apptip:hover .tooltip,
+.notitip:hover .tooltip,.usertip:hover .tooltip
+{
+    opacity: 1;
+    
+}
+.vsearch-btn
+{
+    height:40px;
+    width:40px;
+    border-radius: 20px;
+    border:none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.right-section
+{
+    
+    width:180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 0px;
+    flex-shrink:0;
+    position: relative;
+    
+}
+
+.notify
+{
+    background-color: rgb(193, 0, 0);
+    color:white;
+    width:15px;
+    height:15px;
+    font-size:10px;
+    text-align: center;
+    border-radius:50%;
+    position: absolute;
+    left:110px;
+    top:20px;
+
+    pointer-events: none;
+}
+
+.upload-img
+{
+    height:26px;
+}
+.uptip,.apptip,.notitip,.usertip
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.apps-img
+{
+    height:26px;
+}
+
+
+
+.notifications-img
+{
+    height:26px;
+}
+.user-img
+{
+    height:34px;
+    border-radius:50%;
+}
+
+
+
+

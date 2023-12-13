@@ -1,0 +1,45 @@
+
+.sidebar
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    position: fixed;
+    left:0;
+    top:80px;
+    bottom:0;
+    width:75px;
+    
+}
+
+.home-icon,.explore-icon,.sub-icon,.original-icon,.music-icon,.lib-icon
+{
+    height:24px
+}
+
+
+
+.sb
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+    padding:16px 0;
+    width:100%;
+    transition: background-color 0.25s;
+
+}
+.sb:hover
+{
+    background-color: rgb(212, 212, 212);
+    cursor: pointer;
+}
+.txt
+{
+    font-size: 10px;
+   
+}
+
+
